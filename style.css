@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    background-size: 100% 100%;
+    
+}
+
+.header-up{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-down{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-links{
+    display: flex;
+    gap: 25px;
+}

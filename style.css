@@ -27,3 +27,26 @@ body{
     display: flex;
     gap: 25px;
 }
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo{
+    font-size: 24x;
+    color: #F9FAF9;
+    font-weight: bold;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF9;
+}

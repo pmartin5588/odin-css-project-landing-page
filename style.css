@@ -82,7 +82,12 @@ a{
 }
 
 .section2{
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70vh;
+    min-height: 70vh;
 }
 
 .illustrations{
@@ -120,7 +125,8 @@ div.wrapper{
 .section3{
 
     background-color: #E5E7EB;
-    height: 60vh;
+    min-height: 60vh;
+    flex-basis: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
